@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    
+    <div class="container mt-5">
+        <div class="sign-up text-center w-50  mx-auto py-5 px-5 ">
+            <H1 class="mb-4 title">Smart Login System</H1>
+            <div>
+                <input class="form-control my-3" type="text" placeholder="Enter your email" id="logEmail" >
+                <input class="form-control" type="text" placeholder="Enter your password" id="logPassword" >
+                <div class="text-center" id="message"></div>
+                <button class="sign-btn btn btn-outline-primary form-control my-5" onclick="login()" >Login</button>
+               <div class="text-desc d-flex justify-content-center">
+                <p class="fs-5 text-white">Don't have account?</p>
+                <a href="signup.html" class="text-decoration-none fs-5 text-white px-2">Sign up</a>
+               </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/mine.js"></script>
+</body>
+</html>
